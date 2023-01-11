@@ -1,0 +1,38 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-items li {
+    margin-left: 1rem;
+  }
+  
+  #nav-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  #nav-icon span {
+    height: 3px;
+    width: 1.5rem;
+    background-color: black;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 600px) {
+    .nav-items {
+      display: none;
+    }
+  
+    #nav-icon {
+      display: block;
+    }
+  }
+  
